@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Felanix - Construcción y Servicios</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navigation">
+      <div class="navigation-logo">
+        <a href="#acerca"><img src="./images/logo.jpg" alt="Logo de Felanix"></a>
+      </div>
+    </nav>
+    <nav class="navigation">
+        <ul class="navigation-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#acerca">Acerca de Nosotros</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contactanos</a></li>
+            <li><a href="proveedores.html">Proveedores</a></li>
+            <li><a href="#trabaja">Trabaja con nosotros</a></li>
+          </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Bienvenido a Felanix</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non risus non turpis eleifend tincidunt et et nunc. Duis malesuada maximus ex, id dapibus tortor lacinia et. Donec interdum enim sed eros bibendum vestibulum. Nulla facilisi. Aliquam volutpat lacus eget consequat pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce sed tellus eget libero lacinia mollis. Proin et metus lacinia, cursus urna nec, tristique lorem. Curabitur eleifend eu neque ac iaculis. Morbi vel consequat tellus.</p>
+    <a href="#contacto" class="button button-primary">Contáctanos</a>
+  </section>
+
+  <section id="acerca">
+    <h2>Acerca de Nosotros</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis congue turpis ac sem tincidunt luctus. Vestibulum auctor nisl at erat aliquet, id tempor elit lacinia. Nullam fringilla feugiat tincidunt. Nulla facilisi. Nam elementum sagittis sem a fermentum. Nulla ac libero non leo tincidunt iaculis nec sed lorem. Nullam vestibulum nulla eget sapien consequat, nec eleifend dui consequat. Quisque in suscipit eros. Proin commodo purus ut massa rutrum egestas.</p>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div id="carouselProyectos" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/foto1.png" alt="Proyecto 1">
+          <div class="carousel-caption">
+            <h3>Proyecto 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/foto2.png" alt="Proyecto 2">
+          <div class="carousel-caption">
+            <h3>Proyecto 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/foto3.png" alt="Proyecto 3">
+          <div class="carousel-caption">
+            <h3>Proyecto 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselProyectos" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselProyectos" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <ul>
+      <li>Servicio 1</li>
+      <li>Servicio 2</li>
+      <li>Servicio 3</li>
+      <li>Servicio 4</li>
+      <li>Servicio 5</li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>Contactanos</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button type="submit" class="button button-primary">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2023 Felanix - Construcción y Servicios. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+
